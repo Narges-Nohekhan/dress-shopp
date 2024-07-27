@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir/Vazir-Medium.woff2") format("woff2"),
+        url("../fonts/vazir/Vazir-Medium.woff") format("woff"),
+        url("../fonts/vazir/Vazir-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "vazir-farsi-number";
+    src: url("../fonts/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2") format("woff2"),
+         url("../fonts/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff") format("woff"),
+         url("../fonts/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf") format("truetype");
+}
+
+*{
+    direction: rtl;
+    font-family: "vazir", -apple-system,sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
